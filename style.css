@@ -1,0 +1,64 @@
+@media (max-width: 1250px) {
+    .pricing-container{
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+
+}
+
+
+body {
+    font-family: "Sono", sans-serif;
+}
+ul {
+    list-style-type: none;
+  }
+  
+.plan-title,.plan-price{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.plan-title
+{
+    font-size: 24px;
+
+}
+.plan-price{
+    font-size: 48px;
+}
+.pricing-container>div{
+    background-color: #f2f2f2;
+    border-radius: 2%;
+    flex:1;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    height: 100vh;
+    width:100%;
+    padding: 20px;
+   
+}
+li{
+    margin: 20px;
+}
+button{
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    border-color: orangered;
+    width: 67px;
+    height: 36px;
+    border: none;
+    
+}
+
+/* mistakes: i didnt give flex:1 to the 3 divs. 
+and missed max-width:4000px for 3 divs.*/
